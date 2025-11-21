@@ -1,16 +1,24 @@
-# range_bar_app
+# Flutter Range Bar Assignment
 
-A new Flutter project.
+This project is part of an assignment where the API returns dynamic range values,
+meanings, and colors. The goal is to fetch the data, parse it, and show it in a
+dynamic RangeBar using Flutter.
 
-## Getting Started
+## 🚀 Features
 
-This project is a starting point for a Flutter application.
+- Dynamic API integration (range, meaning, color)
+- Custom UI using `CustomPainter`
+- Uses `ChangeNotifier` (no setState)
+- Shows marker position based on user input
+- Fully dynamic — works even when API data changes every request
 
-A few resources to get you started if this is your first Flutter project:
+## 🧩 Tech & Tools
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter
+- Dart (`dart:io` HttpClient)
+- CustomPainter
+- ChangeNotifier (state management)
+- Unit tests (parser & notifier)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## ▶️ Running the project
+
